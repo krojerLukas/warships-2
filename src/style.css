@@ -1,0 +1,18 @@
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(5, 40px);
+    gap: 1px; /* Optional: Adds space between the tiles */
+}
+
+.tile {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+}
+
+.inactive {
+    pointer-events: none;
+    opacity: 50%;
+}
